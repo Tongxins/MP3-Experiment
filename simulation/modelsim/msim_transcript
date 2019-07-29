@@ -1,0 +1,561 @@
+# Reading F:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do mp3_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying F:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied F:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/or4input.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module or4input
+# 
+# Top level modules:
+# 	or4input
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/pseudolru.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pseudolru
+# 
+# Top level modules:
+# 	pseudolru
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/twobitcounter.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module twobitcounter
+# 
+# Top level modules:
+# 	twobitcounter
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/id_ex_v_logic.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module id_ex_v_logic
+# 
+# Top level modules:
+# 	id_ex_v_logic
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/demux2_1.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module demux2_1
+# 
+# Top level modules:
+# 	demux2_1
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/arbiter_control.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module arbiter_control
+# 
+# Top level modules:
+# 	arbiter_control
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/mux8.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux8
+# 
+# Top level modules:
+# 	mux8
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/or2input.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module or2input
+# 
+# Top level modules:
+# 	or2input
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/tag_comp.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tag_comp
+# 
+# Top level modules:
+# 	tag_comp
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/BR_box.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module BR_box
+# 
+# Top level modules:
+# 	BR_box
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/mem_wb_valid_logic.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mem_wb_valid_logic
+# 
+# Top level modules:
+# 	mem_wb_valid_logic
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/and2input.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module and2input
+# 
+# Top level modules:
+# 	and2input
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/mux3.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux3
+# 
+# Top level modules:
+# 	mux3
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/and3input.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module and3input
+# 
+# Top level modules:
+# 	and3input
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/mux4.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/plus2.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module plus2
+# 
+# Top level modules:
+# 	plus2
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/register.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/mux2.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/lc3b_types.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package lc3b_types
+# 
+# Top level modules:
+# 	--none--
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/hazardDetection.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package hazardDetection_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module hazard_detection
+# 
+# Top level modules:
+# 	hazard_detection
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/forwarding_unit.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package forwarding_unit_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module forwarding_unit
+# 
+# Top level modules:
+# 	forwarding_unit
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/l2cache_control.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package l2cache_control_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module l2cache_control
+# 
+# Top level modules:
+# 	l2cache_control
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/l1dcache_control.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package l1dcache_control_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module dcache_control
+# 
+# Top level modules:
+# 	dcache_control
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/l1icache_control.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package l1icache_control_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module icache_control
+# 
+# Top level modules:
+# 	icache_control
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/arbiter_datapath.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package arbiter_datapath_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module arbiter_datapath
+# 
+# Top level modules:
+# 	arbiter_datapath
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/array.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package array_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module array
+# 
+# Top level modules:
+# 	array
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/sixteen-onetwentyeightconcat.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package sixteen2donetwentyeightconcat_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module sixteenonetwentyeightconcat
+# 
+# Top level modules:
+# 	sixteenonetwentyeightconcat
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/eight-eightconcat.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package eight2deightconcat_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module eighteightconcat
+# 
+# Top level modules:
+# 	eighteightconcat
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/bytefill.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package bytefill_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module bytefill
+# 
+# Top level modules:
+# 	bytefill
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/zext.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package zext_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module zext
+# 
+# Top level modules:
+# 	zext
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/shft.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package shft_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module shft
+# 
+# Top level modules:
+# 	shft
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/zextlshf.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package zextlshf_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module zextlshf1
+# 
+# Top level modules:
+# 	zextlshf1
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/gencc.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package gencc_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module gencc
+# 
+# Top level modules:
+# 	gencc
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/cccomp.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package cccomp_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module cccomp
+# 
+# Top level modules:
+# 	cccomp
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/alu.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package alu_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/sixteenbitadder.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package sixteenbitadder_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module sixteenbitadder
+# 
+# Top level modules:
+# 	sixteenbitadder
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/sext.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package sext_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module sext
+# 
+# Top level modules:
+# 	sext
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/csreg.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package csreg_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module csreg
+# 
+# Top level modules:
+# 	csreg
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/regfile.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package regfile_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/control_rom.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package control_rom_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module control_rom
+# 
+# Top level modules:
+# 	control_rom
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/lshf1.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package lshf1_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module lshf1
+# 
+# Top level modules:
+# 	lshf1
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/l2cache_datapath.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package l2cache_datapath_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module l2cache_datapath
+# 
+# Top level modules:
+# 	l2cache_datapath
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/arbiter.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package arbiter_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/l1cache_datapath.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package l1cache_datapath_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module cache_datapath
+# 
+# Top level modules:
+# 	cache_datapath
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/cpu_datapath.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package cpu_datapath_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module cpu_datapath
+# 
+# Top level modules:
+# 	cpu_datapath
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/l2cache.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package l2cache_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module l2cache
+# 
+# Top level modules:
+# 	l2cache
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/l1dcache.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package l1dcache_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module l1dcache
+# 
+# Top level modules:
+# 	l1dcache
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/l1icache.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package l1icache_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module l1icache
+# 
+# Top level modules:
+# 	l1icache
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/mp3.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling package mp3_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module mp3
+# 
+# Top level modules:
+# 	mp3
+# 
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/physical_memory.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module physical_memory
+# 
+# Top level modules:
+# 	physical_memory
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/magic_memory_dp.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module magic_memory_dp
+# 
+# Top level modules:
+# 	magic_memory_dp
+# vlog -sv -work work +incdir+F:/altera/13.1/ece411/mp3 {F:/altera/13.1/ece411/mp3/mp3_tb.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mp3_tb
+# 
+# Top level modules:
+# 	mp3_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  mp3_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps mp3_tb 
+# Loading sv_std.std
+# Loading work.mp3_tb
+# Loading work.lc3b_types
+# Loading work.mp3_sv_unit
+# Loading work.mp3
+# Loading work.cpu_datapath_sv_unit
+# Loading work.cpu_datapath
+# Loading work.mux4
+# Loading work.plus2
+# Loading work.register
+# Loading work.hazardDetection_sv_unit
+# Loading work.hazard_detection
+# Loading work.control_rom_sv_unit
+# Loading work.control_rom
+# Loading work.mux2
+# Loading work.regfile_sv_unit
+# Loading work.regfile
+# Loading work.id_ex_v_logic
+# Loading work.csreg_sv_unit
+# Loading work.csreg
+# Loading work.sext_sv_unit
+# Loading work.sext
+# Loading work.lshf1_sv_unit
+# Loading work.lshf1
+# Loading work.sixteenbitadder_sv_unit
+# Loading work.sixteenbitadder
+# Loading work.alu_sv_unit
+# Loading work.alu
+# Loading work.shft_sv_unit
+# Loading work.shft
+# Loading work.zextlshf_sv_unit
+# Loading work.zextlshf1
+# Loading work.forwarding_unit_sv_unit
+# Loading work.forwarding_unit
+# Loading work.mux3
+# Loading work.twobitcounter
+# Loading work.cccomp_sv_unit
+# Loading work.cccomp
+# Loading work.gencc_sv_unit
+# Loading work.gencc
+# Loading work.and3input
+# Loading work.mem_wb_valid_logic
+# Loading work.BR_box
+# Loading work.zext_sv_unit
+# Loading work.zext
+# Loading work.bytefill_sv_unit
+# Loading work.bytefill
+# Loading work.and2input
+# Loading work.l1icache_sv_unit
+# Loading work.l1icache
+# Loading work.l1icache_control_sv_unit
+# Loading work.icache_control
+# Loading work.l1cache_datapath_sv_unit
+# Loading work.cache_datapath
+# Loading work.or2input
+# Loading work.array_sv_unit
+# Loading work.array
+# Loading work.mux8
+# Loading work.sixteen2donetwentyeightconcat_sv_unit
+# Loading work.sixteenonetwentyeightconcat
+# Loading work.eight2deightconcat_sv_unit
+# Loading work.eighteightconcat
+# Loading work.tag_comp
+# Loading work.l1dcache_sv_unit
+# Loading work.l1dcache
+# Loading work.l1dcache_control_sv_unit
+# Loading work.dcache_control
+# Loading work.arbiter_sv_unit
+# Loading work.arbiter
+# Loading work.arbiter_control
+# Loading work.arbiter_datapath_sv_unit
+# Loading work.arbiter_datapath
+# Loading work.demux2_1
+# Loading work.l2cache_sv_unit
+# Loading work.l2cache
+# Loading work.l2cache_control_sv_unit
+# Loading work.l2cache_control
+# Loading work.l2cache_datapath_sv_unit
+# Loading work.l2cache_datapath
+# Loading work.or4input
+# Loading work.pseudolru
+# Loading work.physical_memory
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+do wave.do
+restart -f;run 2000ns
+# Loading sv_std.std
+# Loading work.mp3_tb
+# Loading work.lc3b_types
+# Loading work.mp3_sv_unit
+# Loading work.mp3
+# Loading work.cpu_datapath_sv_unit
+# Loading work.cpu_datapath
+# Loading work.mux4
+# Loading work.plus2
+# Loading work.register
+# Loading work.hazardDetection_sv_unit
+# Loading work.hazard_detection
+# Loading work.control_rom_sv_unit
+# Loading work.control_rom
+# Loading work.mux2
+# Loading work.regfile_sv_unit
+# Loading work.regfile
+# Loading work.id_ex_v_logic
+# Loading work.csreg_sv_unit
+# Loading work.csreg
+# Loading work.sext_sv_unit
+# Loading work.sext
+# Loading work.lshf1_sv_unit
+# Loading work.lshf1
+# Loading work.sixteenbitadder_sv_unit
+# Loading work.sixteenbitadder
+# Loading work.alu_sv_unit
+# Loading work.alu
+# Loading work.shft_sv_unit
+# Loading work.shft
+# Loading work.zextlshf_sv_unit
+# Loading work.zextlshf1
+# Loading work.forwarding_unit_sv_unit
+# Loading work.forwarding_unit
+# Loading work.mux3
+# Loading work.twobitcounter
+# Loading work.cccomp_sv_unit
+# Loading work.cccomp
+# Loading work.gencc_sv_unit
+# Loading work.gencc
+# Loading work.and3input
+# Loading work.mem_wb_valid_logic
+# Loading work.BR_box
+# Loading work.zext_sv_unit
+# Loading work.zext
+# Loading work.bytefill_sv_unit
+# Loading work.bytefill
+# Loading work.and2input
+# Loading work.l1icache_sv_unit
+# Loading work.l1icache
+# Loading work.l1icache_control_sv_unit
+# Loading work.icache_control
+# Loading work.l1cache_datapath_sv_unit
+# Loading work.cache_datapath
+# Loading work.or2input
+# Loading work.array_sv_unit
+# Loading work.array
+# Loading work.mux8
+# Loading work.sixteen2donetwentyeightconcat_sv_unit
+# Loading work.sixteenonetwentyeightconcat
+# Loading work.eight2deightconcat_sv_unit
+# Loading work.eighteightconcat
+# Loading work.tag_comp
+# Loading work.l1dcache_sv_unit
+# Loading work.l1dcache
+# Loading work.l1dcache_control_sv_unit
+# Loading work.dcache_control
+# Loading work.arbiter_sv_unit
+# Loading work.arbiter
+# Loading work.arbiter_control
+# Loading work.arbiter_datapath_sv_unit
+# Loading work.arbiter_datapath
+# Loading work.demux2_1
+# Loading work.l2cache_sv_unit
+# Loading work.l2cache
+# Loading work.l2cache_control_sv_unit
+# Loading work.l2cache_control
+# Loading work.l2cache_datapath_sv_unit
+# Loading work.l2cache_datapath
+# Loading work.or4input
+# Loading work.pseudolru
+# Loading work.physical_memory

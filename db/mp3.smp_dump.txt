@@ -1,0 +1,31 @@
+
+State Machine - |mp3|l2cache:l2cache|l2cache_control:l2cache_control|state
+Name state.s_write_back state.s_pmem_complete state.s_update_cache state.s_idle state.s_allocate 
+state.s_idle 0 0 0 0 0 
+state.s_update_cache 0 0 1 1 0 
+state.s_pmem_complete 0 1 0 1 0 
+state.s_write_back 1 0 0 1 0 
+state.s_allocate 0 0 0 1 1 
+
+State Machine - |mp3|arbiter:arbiter|arbiter_control:arbiter_control|state
+Name state.s_bothmiss state.s_dmiss state.s_imiss state.s_idle 
+state.s_idle 0 0 0 0 
+state.s_imiss 0 0 1 1 
+state.s_dmiss 0 1 0 1 
+state.s_bothmiss 1 0 0 1 
+
+State Machine - |mp3|l1dcache:l1dcache|dcache_control:dcache_control|state
+Name state.s_write_back state.s_pmem_complete state.s_update_cache state.s_idle state.s_allocate 
+state.s_idle 0 0 0 0 0 
+state.s_update_cache 0 0 1 1 0 
+state.s_pmem_complete 0 1 0 1 0 
+state.s_write_back 1 0 0 1 0 
+state.s_allocate 0 0 0 1 1 
+
+State Machine - |mp3|l1icache:l1icache|icache_control:icache_control|state
+Name state.s_write_back state.s_pmem_complete state.s_update_cache state.s_idle state.s_allocate 
+state.s_idle 0 0 0 0 0 
+state.s_update_cache 0 0 1 1 0 
+state.s_pmem_complete 0 1 0 1 0 
+state.s_write_back 1 0 0 1 0 
+state.s_allocate 0 0 0 1 1 

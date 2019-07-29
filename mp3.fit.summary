@@ -1,0 +1,20 @@
+Fitter Status : Successful - Sat Sep 16 10:21:39 2017
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Web Edition
+Revision Name : mp3
+Top-level Entity Name : mp3
+Family : Cyclone IV GX
+Device : EP4CGX110DF27C7
+Timing Models : Final
+Total logic elements : 12,518 / 109,424 ( 11 % )
+    Total combinational functions : 8,628 / 109,424 ( 8 % )
+    Dedicated logic registers : 9,406 / 109,424 ( 9 % )
+Total registers : 9406
+Total pins : 278 / 426 ( 65 % )
+Total virtual pins : 0
+Total memory bits : 0 / 5,621,760 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 560 ( 0 % )
+Total GXB Receiver Channel PCS : 0 / 8 ( 0 % )
+Total GXB Receiver Channel PMA : 0 / 8 ( 0 % )
+Total GXB Transmitter Channel PCS : 0 / 8 ( 0 % )
+Total GXB Transmitter Channel PMA : 0 / 8 ( 0 % )
+Total PLLs : 0 / 8 ( 0 % )

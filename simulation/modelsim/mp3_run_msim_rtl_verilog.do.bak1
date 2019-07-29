@@ -1,0 +1,67 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/or4input.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/pseudolru.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/twobitcounter.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/id_ex_v_logic.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/demux2_1.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/arbiter_control.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/mux8.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/or2input.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/tag_comp.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/BR_box.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/mem_wb_valid_logic.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/and2input.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/mux3.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/and3input.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/mux4.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/plus2.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/register.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/mux2.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/lc3b_types.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/hazardDetection.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/forwarding_unit.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/l2cache_control.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/l1dcache_control.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/l1icache_control.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/arbiter_datapath.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/array.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/sixteen-onetwentyeightconcat.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/eight-eightconcat.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/bytefill.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/zext.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/shft.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/zextlshf.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/gencc.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/cccomp.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/alu.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/sixteenbitadder.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/sext.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/csreg.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/regfile.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/control_rom.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/lshf1.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/l2cache_datapath.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/arbiter.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/l1cache_datapath.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/cpu_datapath.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/l2cache.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/l1dcache.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/l1icache.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/mp3.sv}
+
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/physical_memory.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/magic_memory_dp.sv}
+vlog -sv -work work +incdir+C:/Users/Allen/Desktop/new/ECE-411-master {C:/Users/Allen/Desktop/new/ECE-411-master/mp3_tb.sv}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  mp3_tb
+
+add wave *
+view structure
+view signals
+run 200 ns
